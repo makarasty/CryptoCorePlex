@@ -1,4 +1,4 @@
-import { modPow } from "../utils";
+import { modPow } from "../utils.js";
 
 // Генератор Парка–Міллера (LCG) з m = 2^31 - 1, a = 16807
 export class ParkMillerPRNG {

@@ -1,5 +1,5 @@
-import { sha1 } from "../lab2/lab2_hashes";
-import { modPow } from "../utils";
+import { sha1 } from "../lab2/lab2_hashes.js";
+import { modPow } from "../utils.js";
 
 /**
  * signMessage:

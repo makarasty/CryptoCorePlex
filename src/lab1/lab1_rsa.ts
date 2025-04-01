@@ -1,6 +1,6 @@
 import * as fs from "fs";
 import { randomBytes } from "crypto";
-import { modPow } from "../utils";
+import { modPow } from "../utils.js";
 
 // Алгоритм Евкліда для НСД
 function gcd(a: bigint, b: bigint): bigint {

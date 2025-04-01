@@ -22,23 +22,23 @@ import boxen from "boxen";
 
 type BorderStyle = "single" | "double" | "round" | "bold" | "classic" | "none";
 
-import { modPow } from "./utils";
+import { modPow } from "./utils.js";
 
-import { desEncryptFile, desDecryptFile } from "./lab1/lab1_des";
+import { desEncryptFile, desDecryptFile } from "./lab1/lab1_des.js";
 import {
 	generateRSAKeyPair,
 	rsaEncryptFile,
 	rsaDecryptFile,
-} from "./lab1/lab1_rsa";
+} from "./lab1/lab1_rsa.js";
 
-import { ParkMillerPRNG, rabinMillerTest } from "./lab2/lab2_prng";
-import { md5, sha1 } from "./lab2/lab2_hashes";
+import { ParkMillerPRNG, rabinMillerTest } from "./lab2/lab2_prng.js";
+import { md5, sha1 } from "./lab2/lab2_hashes.js";
 
-import { signMessage, verifyMessage } from "./lab3/lab3_signature";
-import { noKeyAttackRSA } from "./lab3/lab3_attacks";
+import { signMessage, verifyMessage } from "./lab3/lab3_signature.js";
+import { noKeyAttackRSA } from "./lab3/lab3_attacks.js";
 
-import { startKeylogger, stopKeylogger } from "./lab4/lab4_keylogger";
-import { embedMessageLSB, extractMessageLSB } from "./lab4/lab4_stego";
+import { startKeylogger, stopKeylogger } from "./lab4/lab4_keylogger.js";
+import { embedMessageLSB, extractMessageLSB } from "./lab4/lab4_stego.js";
 
 import * as readline from "readline";
 

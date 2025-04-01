@@ -2,6 +2,7 @@
 	"name": "crypto-core-plex",
 	"version": "1.0.0",
 	"author": "MaKarastY",
+	"type": "module",
 	"scripts": {
 		"build": "tsc --build tsconfig.json --force --verbose && echo '✅' || echo '❌'",
 		"start-node": "node --optimize-for-size dist/src/main.js",
